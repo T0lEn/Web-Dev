@@ -113,16 +113,7 @@ export class HomeComponent {
       wifi: false,
       laundry: false
     },
-    {
-      id: 9,
-      name: 'Capital Safe Towns',
-      city: 'Portland',
-      state: 'OR',
-      photo: '/assets/webaliser-_TPTXZd9mOo-unsplash.jpg',
-      availableUnits: 6,
-      wifi: true,
-      laundry: true
-    }];
+    ];
   housingService: HousingService = inject(HousingService);
   filteredLocationList: HousingLocation[] = [];
   constructor() {
